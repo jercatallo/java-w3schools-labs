@@ -4,3 +4,12 @@ package org.example.s02_methods.t02_methodchallenge;
  * W3Schools - Java Method Challenge: Method Challenge
  * https://www.w3schools.com/java/java_challenges_methods.asp
  */
+public class MethodChallenge {
+    public static void main(String[] args) {
+        welcomeMessage();
+    }
+
+    static void welcomeMessage() {
+        System.out.println("Welcome to Java!");
+    }
+}

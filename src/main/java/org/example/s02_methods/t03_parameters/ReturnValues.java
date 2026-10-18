@@ -4,3 +4,14 @@ package org.example.s02_methods.t03_parameters;
  * W3Schools - Java Method Parameters: Return Values
  * https://www.w3schools.com/java/java_methods_return.asp
  */
+public class ReturnValues {
+    static int doubleGame(int x) {
+        return x * 2;
+    }
+
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Double of " + i + " is " + doubleGame(i));
+        }
+    }
+}
